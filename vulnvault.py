@@ -23,7 +23,7 @@ parser.add_argument('--id', dest='id', help='Request details for a specific vuln
 args = parser.parse_args()
 
 # Add your personal VulDB API key here
-personalApiKey = '139b345cdf055e9fd7172a793dc40ecd'
+personalApiKey = 'your key here'
 
 # Set HTTP Header
 userAgent = 'VulDB API Python Search Script'
